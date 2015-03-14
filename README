@@ -1,0 +1,5 @@
+Simple bash script for sending yourself an email when a website changes (schedule with cron, etc).
+
+Checks to see if a certain number of instances (HOW_MANY_INSTANCES) of a given text string (TEXT_TO_CHECK_FOR) appear on a web page (WEB_PAGE_TO_CHECK). If so, it sends you an email. Here I check to see an announcement website for a particular job still says "No records to display", and email myself when a job appears.
+
+Dependencies: wget, grep, wc, telnet, date
